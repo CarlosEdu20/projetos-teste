@@ -1,4 +1,3 @@
 # projetos teste
  
-repositório para teste
-estudo sobre GIT e GITHUB
+repositório para estudo sobre GIT e GITHUB
