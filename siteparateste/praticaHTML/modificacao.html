@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modifacação Javascript</title>
+    
+</head>
+<body>
+    <input type=“text” id="inp "onfocus="this.value">
+<button type="button" id="but" onclick="registro()">OK</button>
+<p id="p"> </p>
+<script>
+    let val1 =(a)=>document.querySelector(a).value;
+    let val2  =(a,b)=> document.querySelector(a).innerHTML=b
+    let cl=(a)=>console.log (a);
+let medicamentos=[]
+let arr2=[]
+
+        let registro=()=>{
+            let campo=val1("#inp");
+            medicamentos.push(" " + campo);
+            arr2.push("<br>"+campo);
+            val2("#p", arr2);
+            alert(medicamementos+ " ");
+}
+</script>
+    
+</body>
+</html>
